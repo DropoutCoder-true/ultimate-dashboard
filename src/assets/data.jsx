@@ -16,20 +16,20 @@ export const Navigation = [
     title: "Dashboard",
   },
   {
-    segment: "page",
+    segment: "dashboard",
     title: "Dashboard",
     icon: <DashboardIcon />,
     children: [
       {
-        semgent: "page",
+        segment: "default",
         title: "Default",
       },
       {
-        semgent: "page",
+        segment: "analytics",
         title: "Analytics",
       },
       {
-        semgent: "page",
+        segment: "invoice",
         title: "Invoice",
       },
     ],
@@ -46,17 +46,17 @@ export const Navigation = [
     title: "Widgets",
   },
   {
-    segment: "page",
+    segment: "statistics",
     title: "Statistics",
     icon: <AssessmentIcon />,
   },
   {
-    segment: "page",
+    segment: "data",
     title: "Data",
     icon: <DataArrayIcon />,
   },
   {
-    segment: "page",
+    segment: "chart",
     title: "Chart",
     icon: <BarChartIcon />,
   },
@@ -72,71 +72,71 @@ export const Navigation = [
     title: "Applications",
   },
   {
-    segment: "page",
+    segment: "chat",
     title: "Chat",
     icon: <ChatIcon />,
   },
   {
-    segment: "page",
+    segment: "calendar",
     title: "Calendar",
     icon: <CalendarMonthIcon />,
   },
   {
-    segment: "page",
+    segment: "customers",
     title: "Customers",
     icon: <GroupIcon />,
   },
   {
-    segment: "page",
+    segment: "invoice",
     title: "Invoice",
     icon: <ReceiptIcon />,
     children: [
       {
-        segment: "page",
+        segment: "create",
         title: "Create",
       },
       {
-        segment: "page",
+        segment: "details",
         title: "Details",
       },
       {
-        segment: "page",
+        segment: "list",
         title: "List",
       },
       {
-        segment: "page",
+        segment: "edit",
         title: "Edit",
       },
     ],
   },
   {
-    segment: "page",
+    segment: "profile",
     title: "Profile",
     icon: <AccountCircleIcon />,
   },
   {
-    segment: "page",
+    segment: "ecommerce",
     title: "E-commerce",
     icon: <ShoppingCartCheckoutIcon />,
     children: [
       {
-        segment: "page",
+        segment: "products",
         title: "Products",
       },
       {
-        segment: "page",
+        segment: "productDetails",
         title: "Product Details",
       },
       {
-        segment: "page",
+        segment: "productList",
         title: "Product List",
       },
       {
-        segment: "page",
+        segment: "newProduct",
         title: "Add new Product",
       },
       {
-        segment: "page",
+        segment: "checkout",
         title: "Checkout",
       },
     ],
